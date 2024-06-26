@@ -1,8 +1,8 @@
 <div align="center">
+	<h1><strong>WELCOME TO MINEEBOXX NETWORK</strong></h1>
 	<br />
 		<a href="https://discord.gg/JVjbPCGkkH"><img src="https://i.ibb.co/4jRYG4h/mb.png" width="546" alt="MineeBoxx" /></a>
 	<br />
- 		<a href="https://discord.gg/JVjbPCGkkH"><img src="https://optikservers.com/logo.png" alt="Optik" /></a>
 
  	
 
