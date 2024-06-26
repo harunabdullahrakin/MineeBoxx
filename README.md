@@ -20,7 +20,7 @@ MineeBoxx, A network where the fun never stops and the player count is always hi
 
 ## Contributing
 
-Afonex , Basti , Sam & [Harun Abdullah](https://discord.com/users/941207098434416700)
+Afonex , [Basti20999](https://discord.com/users/939830068358811708) , [Samgamingyt02](https://discord.com/users/826497028073980005) & [Harun Abdullah](https://discord.com/users/941207098434416700) 
 
 ## Help
 
