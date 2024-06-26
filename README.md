@@ -2,9 +2,10 @@
 	<br />
 		<a href="https://discord.gg/JVjbPCGkkH"><img src="https://i.ibb.co/4jRYG4h/mb.png" width="546" alt="MineeBoxx" /></a>
 	<br />
+ 		<a href="https://discord.gg/JVjbPCGkkH"><img src="https://optikservers.com/logo.png" alt="Optik" /></a>
+
  	
 
-		<a href="https://discord.gg/JVjbPCGkkH"><img src="https://optikservers.com/logo.png" alt="Optik" /></a>
 
 </div>
 
