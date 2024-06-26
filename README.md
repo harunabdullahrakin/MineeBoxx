@@ -20,11 +20,11 @@ MineeBoxx, A network where the fun never stops and the player count is always hi
 
 ## Contributing
 
-Afonex , [Basti20999](https://discord.com/users/939830068358811708) , [Samgamingyt02](https://discord.com/users/826497028073980005) & [Harun Abdullah](https://discord.com/users/941207098434416700) 
+[Afonex](https://discord.com/users/1124994416373940334) , [Basti20999](https://discord.com/users/939830068358811708) , [Samgamingyt02](https://discord.com/users/826497028073980005) & [Harun Abdullah](https://discord.com/users/941207098434416700) 
 
 ## Help
 
-If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle nudge in the right direction, please join our [Discord server][discord].
+If you need any help or facing any issue so you can join our discord server [Discord Server]([DISCORD]).
 
 [website]: https://mineeboxx.xyz
 [discord]: https://discord.gg/JVjbPCGkkH
