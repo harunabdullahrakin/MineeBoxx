@@ -1,5 +1,6 @@
-# WELCOME TO MINEEBOXX
-https://i.ibb.co/4jRYG4h/mb.png
-The Official Website Of MineeBoxx 
-## Requirements
-- You must need to be gay to copy or edit this website!
+<div align="center">
+	<br />
+	<p>
+		<a href="https://discord.gg/JVjbPCGkkH"><img src="https://i.ibb.co/4jRYG4h/mb.png" width="546" alt="MineeBoxx" /></a>
+	</p>
+	<br />
