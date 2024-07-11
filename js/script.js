@@ -142,7 +142,7 @@ const config = {
     Emails are sent via https://formsubmit.co/
     */
     contactPage: {
-        email: "harunabdullahrakin@gmail.com"
+        email: ""
     }
 }
 
@@ -348,12 +348,9 @@ const setDataFromConfigToHtml = async () => {
                 group.appendChild(userDiv);
             }
         }
-    } else if(locationPathname.includes("contact")) {
-        contactForm.action = `https://formsubmit.co/${config.contactPage.email}`;
-        discordOnlineUsers.innerHTML = await getDiscordOnlineUsers();
-        inputWithLocationAfterSubmit.value = location.href;
     }
 }
 
 setDataFromConfigToHtml();
+
 
