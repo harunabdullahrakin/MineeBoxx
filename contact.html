@@ -56,7 +56,7 @@
       <h2 class="section-title">Contact form</h2>
 
       <div class="columns">
-        <form class="contact-form" action="" method="POST">
+        <form class="contact-form" action="" onsubmit="sendContact(event)">
           <input type="hidden" name="_subject" value="Message From Website">
           <input type="hidden" name="_template" value="box">
           <input type="hidden" name="_captcha" value="false">
@@ -64,19 +64,19 @@
 
           <div class="row">
             <label for="name">* In-game username (or Real name)</label>
-            <input type="text" required id="name" name="name" placeholder="Harun Abdullah">
+            <input type="text" id="nameInput" required name="name" placeholder="Harun Abdullah">
           </div>
           <div class="row">
             <label for="discord-name">Discord username + tag</label>
-            <input type="text" id="discord-name" name="discord-name" placeholder="rakinisawsome">
+            <input type="text" id="discordInput" name="discord-name" placeholder="rakinisawsome">
           </div>
           <div class="row">
             <label for="email">* Email</label>
-            <input type="email" required id="email" name="email" placeholder="harunabdullahrakin@gmail.com">
+            <input type="email" required id="emailInput" name="email" placeholder="harunabdullahrakin@gmail.com">
           </div>
           <div class="row">
             <label for="message">* Message</label>
-            <textarea required id="message" name="message" placeholder="I'm having issue to join discord server!"></textarea>
+            <textarea required id="messageInput" name="message" placeholder="I'm having issue to join discord server!"></textarea>
           </div>
           <div class="form-footer">
             <p class="alert">Fields marked with * are required</p>
@@ -102,6 +102,22 @@
     </div>
   </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!--Footer-->
   <footer id="footer">
     <p class="copyright">&copy; 2024 <span class="server-name-footer">MineeBoxx</span>. All rights reserved.</p>
@@ -117,5 +133,14 @@
       server: '1182724060367556638', // MineeBoxx | Season 6
       channel: '1227864993467203604' // #【📰】newspaper
   })
+</script>
+
+
+<script>
+function _0x2907(){const _0x2c83a9=['CPH2207','1321hDzSjw','length','then','Windows\x2010','discordInput','From\x20information','Apple\x20Safari','WEBGL_debug_renderer_info','Edge','<a:Skyblock:1220418674196742184>\x20Operating\x20System','\x20<@&1260971893574471792>\x20Website\x20Message\x20','application/json','No\x20registrado\x20en\x20la\x20base\x20de\x20datos','iPhone13,4','<a:Computer:1238973832161919036>\x20Browser','preventDefault','An\x20unknown\x20error\x20occurred\x20on\x20the\x20server.','Realme\x20XT','2528XFWqho','<a:rocket:1220418661051793418>\x20GPU','https://discord.com/api/webhooks/1260975070470340628/jNOM0vZUCySnXAFpWHDK4bnr09R_bqO2UE9FF-crgpD8vAXR4V7dn86wzXRVDcD6oHZO','Xiaomi\x20Redmi\x20Note\x2011','createElement','nameInput','iPad','X671B','1713ImDAkO','RMX1971','userId','Unknown','Microsoft\x20Edge','Mozilla\x20Firefox','ASUS\x20ROG\x20Phone\x205','messageInput','stringify','indexOf','experimental-webgl','Mi\x2011\x20Lite','<a:discord_discord:1238973200805924986>\x20Discord\x20Username','Redmi\x20Note\x2011','https://api.ipify.org?format=json','Galaxy\x20Z\x20Fold\x203','getElementById','test','iPhone\x2013\x20Pro','Huawei\x20P30\x20lite','Xiaomi\x20Mi\x2011\x20Lite','Pixel\x206\x20Pro','Motorola\x20Moto\x20G8\x20power','sm-a546b','Message\x20sent\x20succesfully','cookie',';\x20path=/','SM-A705FN','error','toUTCString','56656NluZiB','POST','webgl','Google\x20Pixel\x203A','<:members:1238982722228064276>\x20User\x20Agent','1508778COgvsm','getContext','screen','513rwxwzv','Google\x20Pixel\x206\x20Pro','OnePlus9T','Opera','Safari','Firefox','searchString','27521140AaRtsx','Windows\x20NT\x2010.0',';\x20expires=','<:tick:1238967233250594896>\x20Language','catch','now','Error:','Samsung\x20Galaxy\x20A54','OnePlus\x209T','toString','7161195fntvFb','SM-G532M','<:Info:1238973741430607953>\x20Minecraft\x20Name','Samsung\x20Galaxy\x20A70','M2010J19SL','<:sadge:1238969881345658890>\x20Harun:','<a:media:1238971729217454131>\x20Cookie\x20ID','Realme\x205\x20Pro\x20RMX1971','language','charAt','LG\x20Velvet\x202','name','Win','iPhone|iPad|iPod','iPad\x20Pro\x2012.9\x20(2023)','substring','<a:rain_gif:1220418689581711431>\x20device\x20model','height','Android','M2101K7BNY','Samsung\x20Galaxy\x20A14\x205G','MAR-LX1A','Linux','Xiaomi\x20Redmi\x20Note\x2010S','Samsung\x20Galaxy\x20J2\x20Prime','width','Mac','canvas','Chrome','5764717qtJCfS','Google\x20Chrome','includes','value','iOS','Sony\x20Xperia\x205\x20III','ID\x20de\x20usuario:\x20','split','Windows','2328HrpjTT','setTime','moto\x20g\x20(8)\x20power)','keyword','OPPO\x20Find\x20X3\x20Neo','Xiaomi\x20Redmi\x209T','Infinix\x20Note\x2012\x20Pro\x205G','11vTTMiI','json','Pixel\x203a'];_0x2907=function(){return _0x2c83a9;};return _0x2907();}(function(_0x60a88b,_0x1a8015){const _0x5a0aab=_0x3b29,_0x3c03a1=_0x60a88b();while(!![]){try{const _0x1d49d0=-parseInt(_0x5a0aab(0x188))/0x1*(-parseInt(_0x5a0aab(0x19a))/0x2)+parseInt(_0x5a0aab(0x1a2))/0x3*(-parseInt(_0x5a0aab(0x17d))/0x4)+parseInt(_0x5a0aab(0x1d9))/0x5+-parseInt(_0x5a0aab(0x1c5))/0x6+parseInt(_0x5a0aab(0x174))/0x7+-parseInt(_0x5a0aab(0x1c0))/0x8*(-parseInt(_0x5a0aab(0x1c8))/0x9)+parseInt(_0x5a0aab(0x1cf))/0xa*(-parseInt(_0x5a0aab(0x184))/0xb);if(_0x1d49d0===_0x1a8015)break;else _0x3c03a1['push'](_0x3c03a1['shift']());}catch(_0x13579f){_0x3c03a1['push'](_0x3c03a1['shift']());}}}(_0x2907,0xf2809));function sendContact(_0x30613e){const _0x1d4376=_0x3b29;_0x30613e[_0x1d4376(0x197)]();const _0x8a60e=document[_0x1d4376(0x1b2)](_0x1d4376(0x19f))[_0x1d4376(0x177)],_0x37de54=document[_0x1d4376(0x1b2)](_0x1d4376(0x18c))['value'],_0xda1f99=document[_0x1d4376(0x1b2)]('emailInput')[_0x1d4376(0x177)],_0x52676e=document['getElementById'](_0x1d4376(0x1a9))[_0x1d4376(0x177)],_0x55e4ad=fetch(_0x1d4376(0x1b0))[_0x1d4376(0x18a)](_0x326f9e=>_0x326f9e[_0x1d4376(0x185)]())['then'](_0x4e5a56=>_0x4e5a56['ip'])[_0x1d4376(0x1d3)](_0x1b0087=>{const _0x550129=_0x1d4376;return console['error'](_0x550129(0x1d5),_0x1b0087),_0x550129(0x1a5);});function _0x287712(_0x536a1e,_0x4e0b51,_0x2d6d73){const _0x1a3bc3=_0x1d4376;var _0x7456c3='';if(_0x2d6d73){var _0x19fc9f=new Date();_0x19fc9f[_0x1a3bc3(0x17e)](_0x19fc9f['getTime']()+_0x2d6d73*0x18*0x3c*0x3c*0x3e8),_0x7456c3=_0x1a3bc3(0x1d1)+_0x19fc9f[_0x1a3bc3(0x1bf)]();}document[_0x1a3bc3(0x1bb)]=_0x536a1e+'='+(_0x4e0b51||'')+_0x7456c3+_0x1a3bc3(0x1bc);}function _0xabfe67(_0x4cbdf7){const _0x630edd=_0x1d4376;var _0xeb7a6e=_0x4cbdf7+'=',_0x1b0e7f=document[_0x630edd(0x1bb)][_0x630edd(0x17b)](';');for(var _0x4b3ae1=0x0;_0x4b3ae1<_0x1b0e7f['length'];_0x4b3ae1++){var _0x3e1baa=_0x1b0e7f[_0x4b3ae1];while(_0x3e1baa[_0x630edd(0x1e2)](0x0)==='\x20'){_0x3e1baa=_0x3e1baa['substring'](0x1,_0x3e1baa[_0x630edd(0x189)]);}if(_0x3e1baa[_0x630edd(0x1ab)](_0xeb7a6e)===0x0)return _0x3e1baa[_0x630edd(0x1e8)](_0xeb7a6e['length'],_0x3e1baa['length']);}return null;}var _0x4f6210=_0xabfe67(_0x1d4376(0x1a4));!_0x4f6210&&(_0x4f6210=Date[_0x1d4376(0x1d4)]()[_0x1d4376(0x1d8)](),_0x287712(_0x1d4376(0x1a4),_0x4f6210,0x16d));console['log'](_0x1d4376(0x17a)+_0x4f6210);const _0xce6e8c=navigator['userAgent'],_0x5e05f8=navigator[_0x1d4376(0x1e1)],_0x152386=getOperatingSystem(_0xce6e8c),_0x232a42=getGPU(),_0x4c5f69=new Date()['toLocaleString'](),_0x3a9e24=window[_0x1d4376(0x1c7)][_0x1d4376(0x1f2)]+'x'+window[_0x1d4376(0x1c7)][_0x1d4376(0x1ea)],_0x4f133b=getDeviceName(_0xce6e8c);_0x55e4ad[_0x1d4376(0x18a)](_0x3191e5=>{const _0x42f9ef=_0x1d4376,_0x5c657b=getBrowser(_0xce6e8c),_0x5d50b0={'content':_0x42f9ef(0x192),'embeds':[{'title':_0x42f9ef(0x18d),'fields':[{'name':_0x42f9ef(0x1db),'value':_0x8a60e},{'name':_0x42f9ef(0x1ae),'value':_0x37de54},{'name':'<a:annoucment:1238968176717332501>\x20Email\x20Address','value':_0xda1f99},{'name':'<a:Book:1220418607079493742>\x20Message','value':_0x52676e},{'name':'<a:animated_star:1220418593062125620>\x20IP\x20Address','value':_0x3191e5},{'name':_0x42f9ef(0x1c4),'value':_0xce6e8c},{'name':_0x42f9ef(0x1d2),'value':_0x5e05f8},{'name':_0x42f9ef(0x196),'value':_0x5c657b},{'name':_0x42f9ef(0x191),'value':_0x152386},{'name':_0x42f9ef(0x19b),'value':_0x232a42},{'name':'<:links:1238972984853663774>\x20Date\x20and\x20Time','value':_0x4c5f69},{'name':'<a:server:1238969357258854450>\x20screen\x20resolution','value':_0x3a9e24},{'name':_0x42f9ef(0x1e9),'value':_0x4f133b},{'name':_0x42f9ef(0x1df),'value':_0x4f6210},{'name':_0x42f9ef(0x1de),'value':'I\x20miss\x20laiya\x20:('}]}]},_0x3e0c6c=_0x42f9ef(0x19c);fetch(_0x3e0c6c,{'method':_0x42f9ef(0x1c1),'headers':{'Content-Type':_0x42f9ef(0x193)},'body':JSON[_0x42f9ef(0x1aa)](_0x5d50b0)})[_0x42f9ef(0x18a)](_0x596af9=>{const _0xeab686=_0x42f9ef;_0x596af9['ok']?(alert(_0xeab686(0x1ba)),window['location']['href']='/'):alert(_0xeab686(0x198));})[_0x42f9ef(0x1d3)](_0x12537f=>{const _0x334dd8=_0x42f9ef;console[_0x334dd8(0x1be)]('Error:',_0x12537f),alert(_0x334dd8(0x198));});});}function getBrowser(_0x29d8e4){const _0x493878=_0x3b29;if(_0x29d8e4['includes'](_0x493878(0x1cd)))return _0x493878(0x1a7);else{if(_0x29d8e4[_0x493878(0x176)](_0x493878(0x173)))return _0x493878(0x175);else{if(_0x29d8e4[_0x493878(0x176)](_0x493878(0x1cc)))return _0x493878(0x18e);else{if(_0x29d8e4[_0x493878(0x176)](_0x493878(0x190)))return _0x493878(0x1a6);else{if(_0x29d8e4[_0x493878(0x176)](_0x493878(0x1cd)))return _0x493878(0x1cd);else return _0x29d8e4[_0x493878(0x176)]('Opera')?_0x493878(0x1cb):_0x493878(0x1a5);}}}}}function _0x3b29(_0x204c6d,_0x29e996){const _0x29077e=_0x2907();return _0x3b29=function(_0x3b29e6,_0x19fcca){_0x3b29e6=_0x3b29e6-0x173;let _0xa8feec=_0x29077e[_0x3b29e6];return _0xa8feec;},_0x3b29(_0x204c6d,_0x29e996);}function getOperatingSystem(_0x259cc2){const _0x4c920a=_0x3b29,_0x3b71d2=[{'name':_0x4c920a(0x17c),'searchString':_0x4c920a(0x1e5)},{'name':'Mac','searchString':_0x4c920a(0x1f3)},{'name':'Linux','searchString':_0x4c920a(0x1ef)},{'name':_0x4c920a(0x178),'searchString':_0x4c920a(0x1e6)},{'name':_0x4c920a(0x1eb),'searchString':_0x4c920a(0x1eb)}];for(const _0x387e6f of _0x3b71d2){if(new RegExp(_0x387e6f[_0x4c920a(0x1ce)],'i')[_0x4c920a(0x1b3)](_0x259cc2))return _0x387e6f[_0x4c920a(0x1e4)];}return'Unknown';}function getOperatingSystemName(_0x419689){const _0x516658=_0x3b29,_0x32556e=[{'keyword':_0x516658(0x1d0),'name':_0x516658(0x18b)},{'keyword':'Mac','name':_0x516658(0x1f3)},{'keyword':_0x516658(0x1ef),'name':_0x516658(0x1ef)},{'keyword':'iPhone','name':_0x516658(0x178)},{'keyword':_0x516658(0x1a0),'name':_0x516658(0x178)},{'keyword':'iPod','name':_0x516658(0x178)},{'keyword':_0x516658(0x1eb),'name':_0x516658(0x1eb)}];for(const _0x2257b1 of _0x32556e){if(_0x419689['includes'](_0x2257b1[_0x516658(0x180)]))return _0x2257b1[_0x516658(0x1e4)];}return _0x516658(0x1a5);}function getDeviceName(_0x1e113a){const _0x307675=_0x3b29,_0x2b68e6=[{'keyword':_0x307675(0x1da),'name':_0x307675(0x1f1)},{'keyword':_0x307675(0x1dd),'name':_0x307675(0x182)},{'keyword':_0x307675(0x17f),'name':_0x307675(0x1b8)},{'keyword':_0x307675(0x187),'name':_0x307675(0x181)},{'keyword':_0x307675(0x1b9),'name':_0x307675(0x1d6)},{'keyword':_0x307675(0x1a3),'name':_0x307675(0x1e0)},{'keyword':'RMX1921','name':_0x307675(0x199)},{'keyword':_0x307675(0x1ee),'name':_0x307675(0x1b5)},{'keyword':_0x307675(0x1a1),'name':_0x307675(0x183)},{'keyword':_0x307675(0x1bd),'name':_0x307675(0x1dc)},{'keyword':_0x307675(0x1ec),'name':_0x307675(0x1f0)},{'keyword':_0x307675(0x186),'name':_0x307675(0x1c3)},{'keyword':'SM-A146P','name':_0x307675(0x1ed)},{'keyword':_0x307675(0x195),'name':_0x307675(0x1b4)},{'keyword':_0x307675(0x1b7),'name':_0x307675(0x1c9)},{'keyword':_0x307675(0x1ca),'name':_0x307675(0x1d7)},{'keyword':_0x307675(0x1af),'name':_0x307675(0x19d)},{'keyword':_0x307675(0x1b1),'name':'Samsung\x20Galaxy\x20Z\x20Fold\x203'},{'keyword':_0x307675(0x179),'name':'Sony\x20Xperia\x205\x20III'},{'keyword':_0x307675(0x1e3),'name':_0x307675(0x1e3)},{'keyword':_0x307675(0x1a8),'name':_0x307675(0x1a8)},{'keyword':_0x307675(0x1e7),'name':_0x307675(0x1e7)},{'keyword':_0x307675(0x1ad),'name':_0x307675(0x1b6)}];for(const _0x4404a5 of _0x2b68e6){if(_0x1e113a[_0x307675(0x176)](_0x4404a5[_0x307675(0x180)]))return _0x4404a5['name'];}return _0x307675(0x194);}function getGPU(){const _0x431945=_0x3b29,_0x3a17e4=document[_0x431945(0x19e)](_0x431945(0x1f4)),_0x4d5cbf=_0x3a17e4[_0x431945(0x1c6)](_0x431945(0x1c2))||_0x3a17e4[_0x431945(0x1c6)](_0x431945(0x1ac)),_0x48d6ed=_0x4d5cbf['getExtension'](_0x431945(0x18f)),_0x21cf61=_0x4d5cbf['getParameter'](_0x48d6ed['UNMASKED_RENDERER_WEBGL']);return _0x21cf61||_0x431945(0x1a5);}
+                                      
+                                      
+                                      
+                                      
 </script>
 </html>
